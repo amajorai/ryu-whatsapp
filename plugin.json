@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ryu.whatsapp",
+  "version": "0.1.1",
+  "description": "Connect WhatsApp Personal or WhatsApp Business (Cloud API) to a Ryu agent or team from a native workspace tab.",
+  "author": {
+    "name": "Ryu",
+    "url": "https://ryuhq.com"
+  },
+  "homepage": "https://github.com/amajorai/ryu-whatsapp",
+  "repository": "https://github.com/amajorai/ryu-whatsapp",
+  "keywords": [
+    "whatsapp",
+    "whatsapp business",
+    "cloud api",
+    "personal",
+    "channels",
+    "messaging"
+  ],
+  "extensions": {
+    "com.ryuhq.ryu": {
+      "id": "@ryu/whatsapp",
+      "displayName": "WhatsApp"
+    }
+  }
+}
